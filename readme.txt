@@ -14,3 +14,12 @@ Write the script in the best possible way (for performance and UX)
 Usage example:
 
 ./password-validator.sh "MyP@ssw0rd!"
+
+
+Feature:
+Extend the script by adding the following capability:
+
+If the option “-f” is added the password should be retrieved from a file
+Usage example:
+
+./password-validator.sh -f "/mypath/password.txt"
