@@ -1,2 +1,2 @@
 # PasswordValidation
-Password Validation Script
+Password Validation Script in Linux/Unix environment
