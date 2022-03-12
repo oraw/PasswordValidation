@@ -31,8 +31,17 @@ print_style () {
 #print_style "This is a red text with a \n new line " "danger";
 #print_style "This has no color";
 
-echo "Please enter the password"
-read password
+if [ "$1" == "-f" ] ; then
+   #echo $1
+   password=`cat password.txt`
+   #echo $password
+else
+   echo "Please enter the password"
+   read password
+fi
+
+#echo "Please enter the password"
+#read password
 
 len="${#password}"
 rtrn=1
